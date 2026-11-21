@@ -887,5 +887,12 @@
     "Produkt": "Brezel",
     "Anzahl": 3,
     "Umsatz": 3
+  },
+  {
+    "Datum": "2026-11-21",
+    "Uhrzeit": "13:53",
+    "Produkt": "Croissant",
+    "Anzahl": 3,
+    "Umsatz": 4.6
   }
 ]

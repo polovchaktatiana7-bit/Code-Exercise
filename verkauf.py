@@ -161,7 +161,7 @@ def daten_eingeben():
 
     # Umsatz berechnen: Menge mal Preis
     # round(..., 2) rundet auf 2 Nachkommastellen (Cent-Beträge).
-    umsatz = round(menge + produkt["Preis (EUR)"], 2)
+    umsatz = round(menge * produkt["Preis (EUR)"], 2)
 
     # Neuen Datensatz erstellen
     jetzt = datetime.now()  # aktuelles Datum und aktuelle Uhrzeit
